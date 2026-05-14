@@ -9,14 +9,23 @@ Ejercicio que usa conceptos de polimorfismo en POO.
 
 nomina/
 ├── CMakeLists.txt
+
 ├── .gitignore
+
 ├── src/
+
 │   ├── Empleado.h / Empleado.cpp
+
 │   ├── DesarrolladorJunior.h / DesarrolladorJunior.cpp
+
 │   ├── DesarrolladorSenior.h / DesarrolladorSenior.cpp
+
 │   ├── LiderTecnico.h / LiderTecnico.cpp
+
 │   ├── Tester.h / Tester.cpp
+
 │   └── main.cpp
+
 
 
 ## Evidencia de ejecución
