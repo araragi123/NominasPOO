@@ -37,7 +37,7 @@ void procesarNomina(vector<Empleado*>& empleados) {
     cout << fixed << setprecision(2);
 
     for (Empleado* e : empleados) {
-        float salario = e->calcularSalario(); // POLIMORFISMO aqui
+        float salario = e->calcularSalario(); 
         total += salario;
         cout << "Nombre : " << e->getNombre() << endl;
         cout << "Tipo   : " << e->getTipo() << endl;
@@ -53,7 +53,7 @@ int main() {
     vector<Empleado*> empleados = inicializarDatos();
     procesarNomina(empleados);
 
-    // liberar memoria
+ 
     for (Empleado* e : empleados) {
         delete e;
     }
