@@ -4,7 +4,7 @@ LiderTecnico::LiderTecnico(string nombre, float salarioBase)
     : Empleado(nombre, salarioBase) {}
 
 float LiderTecnico::calcularSalario() {
-    return salarioBase * 1.25f; // bono 25%
+    return salarioBase * 1.25f; 
 }
 
 string LiderTecnico::getTipo() {
