@@ -6,7 +6,7 @@ Ejercicio que usa conceptos de polimorfismo en POO.
 
 ## Estructura del proyecto
 
-```
+
 nomina/
 ├── CMakeLists.txt
 ├── .gitignore
@@ -17,15 +17,12 @@ nomina/
 │   ├── LiderTecnico.h / LiderTecnico.cpp
 │   ├── Tester.h / Tester.cpp
 │   └── main.cpp
-```
 
----
 
 ## Evidencia de ejecución
 
 ### Salida de consola
 
-```
 <img width="560" height="543" alt="image" src="https://github.com/user-attachments/assets/f43dcf4f-9b72-4aac-8063-99aead8fb8b6" />
 
 ### Tabla de datos de prueba
@@ -42,7 +39,7 @@ nomina/
 | Andres Mora    | Tester                | $2.800.000      | 5%   | $2.940.000      |
 | **TOTAL**      |                       |                 |      | **$35.590.000** |
 
----
+
 
 ## Explicación del diseño
 
@@ -58,7 +55,7 @@ El métodocalcularSalario()0 en la clase base está declarado con la palabra vir
 
 En la función procesarNomina hay una lista con todos los empleados. Para calcular el salario de cada uno simplemente se llama calcularSalario(), sin preguntar qué tipo de empleado es. C++ solo sabe que es un Empleado, pero en tiempo de ejecución se da cuenta si es un Junior, un Senior, un Tester o un Líder, y ejecuta el cálculo correcto. Eso es el polimorfismo: el mismo llamado al método da resultados distintos según el objeto que lo esté ejecutando.
 
-```
+
 
 ### 4. ¿Por qué sería menos adecuado resolver esto con if o switch?
 
