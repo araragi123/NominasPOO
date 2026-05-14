@@ -2,7 +2,7 @@
 
 Ejercicio que usa conceptos de polimorfismo en POO.
 
----
+
 
 ## Estructura del proyecto
 
