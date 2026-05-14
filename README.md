@@ -54,7 +54,7 @@ nomina/
 
 ### 1. ¿Cuál es la clase base y por qué?
 
-La clase base es Empleado, la elegí como base porque todos los tipos de empleados comparten dos atributos fundamentales, el nombre y el salario base. En lugar de volver a poner esos atributos en cada clase, los defino una sola vez en `Empleado` y las clases derivadas los heredan.
+La clase base es Empleado, la elegí como base porque todos los tipos de empleados comparten dos atributos fundamentales, el nombre y el salario base. En lugar de volver a poner esos atributos en cada clase, los defino una sola vez en Empleado y las clases derivadas los heredan.
 
 ### 2. ¿Qué método se sobrescribe en las clases derivadas?
 
