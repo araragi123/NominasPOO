@@ -61,7 +61,6 @@ En la función procesarNomina hay una lista con todos los empleados. Para calcul
 
 Si usáramos if o switch para identificar el tipo de cada empleado y calcular su salario, el código se volvería difícil de mantener. Cada vez que se agregue un nuevo tipo de empleado habría que modificar esa estructura de condiciones, aumentando el riesgo de errores. Con polimorfismo, simplemente se crea una nueva clase derivada y se sobrescribe calcularSalario(), sin tocar el resto del código.
 
----
 
 ## Dificultad encontrada
 
@@ -73,7 +72,6 @@ virtual float calcularSalario();
 
 Qué entendí: Sin virtual, aunque se llame calcularSalario() a través de un puntero Empleado, C++ siempre ejecutaría la versión de la clase base, ignorando la versión de la clase derivada. Con virtual, C++ sabe que debe buscar la versión correcta según el tipo real del objeto en tiempo de ejecución. Esa es la clave del polimorfismo.
 
----
 
 ## Uso de IA
 
@@ -82,7 +80,7 @@ Qué entendí: Sin virtual, aunque se llame calcularSalario() a través de un pu
  Usé IA generativa como apoyo en esta actividad. La utilicé para: guiarme en la estructura del proyecto, aclarar el concepto de polimorfismo y revisar el código.
 
  Fragmento o idea sugerida por la IA:
- La IA me sugirió usar un vector de punteros `Empleado*` para almacenar todos los empleados y así poder llamar `calcularSalario()` de forma polimórfica.
+ La IA me sugirió usar un vector de punteros Empleado* para almacenar todos los empleados y así poder llamar calcularSalario() de forma polimórfica.
 
  Qué revisé antes de usarlo:
  Verifiqué que el programa compilara correctamente y que los salarios calculados coincidieran con los porcentajes de bono indicados en el enunciado.
