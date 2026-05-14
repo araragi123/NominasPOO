@@ -95,4 +95,4 @@ Qué entendí: Sin virtual, aunque se llame calcularSalario() a través de un pu
  Verifiqué que el programa compilara correctamente y que los salarios calculados coincidieran con los porcentajes de bono indicados en el enunciado.
 
  Qué cambié o adapté:
- Ajusté los nombres y salarios base de los empleados de prueba para que fueran más representativos del contexto colombiano.
+ Ajusté los nombres y salarios base de los empleados de prueba.
