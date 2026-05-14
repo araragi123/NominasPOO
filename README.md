@@ -71,9 +71,8 @@ Si usáramos if o switch para identificar el tipo de cada empleado y calcular su
 **Problema:** Al principio no entendía para qué servía la palabra virtual en la clase base.
 
 Parte del código relacionada:
-```cpp
+
 virtual float calcularSalario();
-```
 
 Qué entendí: Sin virtual, aunque se llame calcularSalario() a través de un puntero Empleado, C++ siempre ejecutaría la versión de la clase base, ignorando la versión de la clase derivada. Con virtual, C++ sabe que debe buscar la versión correcta según el tipo real del objeto en tiempo de ejecución. Esa es la clave del polimorfismo.
 
