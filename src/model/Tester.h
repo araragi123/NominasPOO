@@ -1,7 +1,7 @@
 #ifndef TESTER_H
 #define TESTER_H
 
-#include 
+#include "Empleado.h"
 
 class Tester : public Empleado {
 public:
