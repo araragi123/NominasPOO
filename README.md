@@ -97,4 +97,4 @@ Qué entendí: Sin virtual, aunque se llame calcularSalario() a través de un pu
  Qué cambié o adapté:
  Ajusté los nombres y salarios base de los empleados de prueba.
 
- Utilize la IA tambien para saber algun que otro comando para organizar el README del repo correctamente
+ Utilize la IA tambien para saber algun que otro comando para organizar el README del repo correctamente.
